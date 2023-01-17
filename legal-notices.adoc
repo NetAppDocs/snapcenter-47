@@ -1,16 +1,12 @@
 ---
+permalink:  legal-notices.html
 sidebar: sidebar
-permalink: legal-notices.html
-keywords: copyrights, notice, trademarks, patents, privacy, open source
-summary: Legal notices provide access to copyright statements, trademarks, patents, and more.
+keywords: # no keywords
+summary: # no summary
 ---
-
 = Legal notices
-:hardbreaks:
-:nofooter:
 :icons: font
-:linkattrs:
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 // Include the common notices
 include::https://raw.githubusercontent.com/NetAppDocs/common/main/_include/common-legal-notices.adoc[]
@@ -19,4 +15,3 @@ include::https://raw.githubusercontent.com/NetAppDocs/common/main/_include/commo
 include::https://raw.githubusercontent.com/NetAppDocs/common/main/_include/open-source-notice-intro.adoc[]
 
 // Add required link(s)
-https://library.netapp.com/ecm/ecm_download_file/ECMLP2883298[Notice for SnapCenter 4.7^]
