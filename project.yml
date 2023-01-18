@@ -8,8 +8,11 @@ settings:
     harmony_enabled: true
   versions:
     - name: SnapCenter Software
-      url: /snapcenter
+      url: /snapcenter-47
       version-number: "4.7"
+    - name: SnapCenter Software
+      url: /snapcenter
+      version-number: "4.8"
     - name: SnapCenter Software
       url: /snapcenter-46
       version-number: "4.6"
