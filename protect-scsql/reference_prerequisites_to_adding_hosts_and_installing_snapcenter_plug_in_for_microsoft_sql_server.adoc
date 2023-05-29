@@ -22,8 +22,6 @@ http://support.microsoft.com/kb/2926557/[Microsoft Support Article 2926557: SQL 
 
 * When installing a plug-in on a Windows host, if you specify a credential that is not built-in or if the user belongs to a local workgroup user, you must disable UAC on the host.
 * If SnapManager for Microsoft SQL Server is installed, you must have stopped or disabled the service and schedules.
-+
-If you plan to import backup or clone jobs into SnapCenter, do not uninstall SnapManager for Microsoft SQL Server.
 
 * The host must be resolvable to the fully qualified domain name (FQDN) from the server.
 +
