@@ -93,7 +93,7 @@ SnapCenter MFA functionality can also be enabled using REST APIs.
 
 After enabling, updating, or disabling the MFA settings in SnapCenter, close all the  browser tabs and reopen a browser to login again. This will clear the existing or active session cookies.
 
-For troubleshooting information see link:..https://kb.netapp.com/mgmt/SnapCenter/SnapCenter_MFA_login_error_The_SAML_message_response_1_doesnt_match_the_expected_response_2[SnapCenter login in multiple tabs shows MFA error].
+For troubleshooting information, refer to https://kb.netapp.com/mgmt/SnapCenter/SnapCenter_MFA_login_error_The_SAML_message_response_1_doesnt_match_the_expected_response_2[Simultaneous login attempts in multiple tabs shows MFA error].
 
 == Update AD FS MFA Metadata
 

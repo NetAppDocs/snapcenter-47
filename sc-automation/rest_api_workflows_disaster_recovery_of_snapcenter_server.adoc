@@ -13,7 +13,7 @@ SnapCenter disaster recovery (DR) functionality uses REST APIs to backup SnapCen
 
 *What you will need*
 
-*	You should log in as the SnapCenter Admin user.
+* You should log in as the SnapCenter Admin user.
 * The SnapCenter Server should be up and running to run DR restore API.
 
 
@@ -86,5 +86,11 @@ a|
 a|
 POST
 |===
+
+NOTE: Repository backup schedule will be restored only if you install the SnapCenter Plug-in for Windows and attach NetApp LUN to the server machine.
+
+NOTE: If the DLLs are corrupt, you can attempt to repair SnapCenter Server or correct the faulty installation.
+
+NOTE: If NSM or config files are corrupt, you can uninstall and reinstall the SnapCenter Server with the same version.
 
 For more information, see the https://www.youtube.com/watch?v=Nbr_wm9Cnd4&list=PLdXI3bZJEw7nofM6lN44eOe4aOSoryckg[Disaster Recovery APIs^] video.
