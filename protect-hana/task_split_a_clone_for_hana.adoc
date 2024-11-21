@@ -8,4 +8,6 @@ summary: 'You can use SnapCenter to split a cloned resource from the parent reso
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
+
 include::../_include/reuse_task_split_a_clone.adoc[]
