@@ -5,7 +5,7 @@ You should configure the CA certificates and deploy the CA certificates in the S
 * You can enable or disable the CA certificates using the run _Set-SmCertificateSettings_ cmdlet.
 * You can display the certificate status for the plug-ins using the _Get-SmCertificateSettings_.
 
-The information regarding the parameters that can be used with the cmdlet and their descriptions can be obtained by running _Get-Help command_name_. Alternatively, you can also refer to the https://library.netapp.com/ecm/ecm_download_file/ECMLP2883300[SnapCenter Software Cmdlet Reference Guide^].
+The information regarding the parameters that can be used with the cmdlet and their descriptions can be obtained by running _Get-Help command_name_. Alternatively, you can also refer to the https://docs.netapp.com/us-en/snapcenter-cmdlets-47/index.html[SnapCenter Software Cmdlet Reference Guide^].
 
 
 *Steps*
@@ -20,10 +20,10 @@ The information regarding the parameters that can be used with the cmdlet and th
 
 The Managed Hosts tab host displays a padlock and the color of the padlock indicates the status of the connection between SnapCenter Server and the plug-in host.
 
-* *image:../media/enable_ca_issues_icon.png[]* indicates that the CA certificate is neither enabled nor assigned to the plug-in host.
-* *image:../media/enable_ca_good_icon.png[]* indicates that the CA certificate is successfully validated.
+* *image:../media/enable_ca_issues_icon.png[issues icon]* indicates that the CA certificate is neither enabled nor assigned to the plug-in host.
+* *image:../media/enable_ca_good_icon.png[ca good icon]* indicates that the CA certificate is successfully validated.
 
-* *image:../media/enable_ca_failed_icon.png[]* indicates that the CA certificate could not be validated.
-* *image:../media/enable_ca_undefined_icon.png[]* indicates that the connection information could not be retrieved.
+* *image:../media/enable_ca_failed_icon.png[ca failed icon]* indicates that the CA certificate could not be validated.
+* *image:../media/enable_ca_undefined_icon.png[ca unfinished icon]* indicates that the connection information could not be retrieved.
 +
 NOTE: When the status is yellow or green, the data protection operations completes successfully.

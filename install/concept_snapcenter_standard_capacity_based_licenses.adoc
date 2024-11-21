@@ -71,7 +71,7 @@ You should have valid NetApp Support Site login credentials.
 . Navigate to *Systems* > *Software Licenses*.
 . In the Selection Criteria area, choose *SC_STANDARD* from the Show Me All: Serial Numbers and Licenses drop-down menu.
 +
-image::../media/nss_license_selection.gif[]
+image::../media/nss_license_selection.gif[license]
 
 . Type your company name, and then click *Go!*.
 +
@@ -125,7 +125,7 @@ NOTE: The trial license (serial number ending with 50) cannot be deleted using t
 
 . In the left navigation pane, click *Settings*.
 . In the Settings page, click *Software*.
-. In the License section of the Software page, click *Add* (image:../media/add_policy_from_resourcegroup.gif[]).
+. In the License section of the Software page, click *Add* (image:../media/add_policy_from_resourcegroup.gif[add policy from resource group]).
 . In the Add SnapCenter License wizard, select one of the following methods to obtain the license you want to add:
 +
 |===

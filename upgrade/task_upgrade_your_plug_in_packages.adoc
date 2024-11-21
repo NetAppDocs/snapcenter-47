@@ -41,7 +41,7 @@ In the *Job details* page, a warning message recommends that the customer should
     .. Click *More Options*.
     .. Select *Skip prechecks* if you do not want to validate whether the host meets the requirements to upgrade the plug-in.
     .. Click *Upgrade*.
-  * If you want to upgrade multiple hosts, select all the hosts, click image:../media/more_icon.gif[], and then click *Upgrade* > *OK*.
+  * If you want to upgrade multiple hosts, select all the hosts, click image:../media/more_icon.gif[more icon], and then click *Upgrade* > *OK*.
 +
 NOTE: All the plug-ins in the package gets selected, but only the plug-ins that were installed with the earlier version of SnapCenter are upgraded, and the remaining plug-ins are not installed. You must use the *Add plug-ins* option to install any new plug-in.
 
