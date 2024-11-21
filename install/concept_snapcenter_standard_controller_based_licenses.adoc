@@ -45,8 +45,8 @@ When you click the cluster name, all of the SVMs that are part of the cluster ar
 +
 The Controller License column displays the following status:
 
-* image:../media/controller_licensed_icon.gif[] indicates that a SnapManager Suite license is installed on a FAS or AFF primary storage system.
-* image:../media/controller_not_licensed_icon.gif[] indicates that a SnapManager Suite license is not installed on a FAS or AFF primary storage system.
+* image:../media/controller_licensed_icon.gif[controller license icon] indicates that a SnapManager Suite license is installed on a FAS or AFF primary storage system.
+* image:../media/controller_not_licensed_icon.gif[controller not licensed icon] indicates that a SnapManager Suite license is not installed on a FAS or AFF primary storage system.
 * Not applicable indicates that a SnapManager Suite license is not applicable because the storage controller is on Cloud Volumes ONTAP, ONTAP Select, or Secondary storage platforms.
 
 === Identify the licenses installed on the controller
@@ -150,7 +150,7 @@ If you do not enter valid credentials, no information is returned for your searc
 . Navigate to *Systems* > *Software Licenses*.
 . In the Selection Criteria area, ensure Serial Number (located on back of unit) is selected, enter the controller serial number, and then click *Go!*.
 +
-image::../media/nss_controller_license_select.gif[]
+image::../media/nss_controller_license_select.gif[select controller license]
 +
 A list of licenses for the specified controller is displayed.
 . Locate and record the SnapCenter Standard or SnapManagerSuite license.
@@ -195,7 +195,7 @@ NOTE: Removing a trial license manually is only required if you are using a Snap
  .. Run the Open-SmConnection cmdlet to initiate a connection session with the SnapCenter Server for a SnapCenterAdmin account.
  .. Run the Set-SmRepositoryPassword to reset the MySQL password.
 +
-For information about the cmdlets, see https://library.netapp.com/ecm/ecm_download_file/ECMLP2883300[SnapCenter Software Cmdlet Reference Guide^].
+For information about the cmdlets, see https://docs.netapp.com/us-en/snapcenter-cmdlets-47/index.html[SnapCenter Software Cmdlet Reference Guide^].
 . Open the command prompt and run mysql -u root -p to log into MySQL.
 +
 MySQL prompts you for the password. Enter the credentials you provided while resetting the password.
