@@ -20,10 +20,6 @@ link:concept_develop_a_plug_in_for_your_application.html[Develop a plug-in for y
 
 * You must have uploaded the plug-ins to SnapCenter Server.
 
-*About this task*
-
-You can also add resources for MySQL and DB2 applications. These plug-ins can be downloaded from the https://automationstore.netapp.com/home.shtml[NetApp Storage Automation Store].
-
 *Steps*
 
 . In the left navigation pane, click *Resources*, and then select the appropriate plug-in from the list.
@@ -58,7 +54,7 @@ Enter the mount paths where the resource is mounted.    This is applicable only 
 |===
 . In the Provide Storage Footprint page, select a storage system and choose one or more volumes, LUNs, and qtrees, and then click *Save*.
 +
-Optional: Click the image:../media/add_policy_from_resourcegroup.gif[] icon to add more volumes, LUNs, and qtrees from other storage systems.
+Optional: Click the image:../media/add_policy_from_resourcegroup.gif[add policy from resource group] icon to add more volumes, LUNs, and qtrees from other storage systems.
 +
 NOTE: SnapCenter Custom Plug-ins does not support automatic discovery of the resources and the storage details for physical and virtual environments. You must provide the storage information for physical and virtual environments while creating the resources.
 +
