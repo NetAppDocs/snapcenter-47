@@ -93,4 +93,4 @@ NOTE: If the DLLs are corrupt, you can attempt to repair SnapCenter Server or co
 
 NOTE: If NSM or config files are corrupt, you can uninstall and reinstall the SnapCenter Server with the same version.
 
-For more information, see the https://www.youtube.com/watch?v=Nbr_wm9Cnd4&list=PLdXI3bZJEw7nofM6lN44eOe4aOSoryckg[Disaster Recovery APIs^] video.
+For more information, see the https://www.youtube.com/watch?v=_8NG-tTGy8k&list=PLdXI3bZJEw7nofM6lN44eOe4aOSoryckg[Disaster Recovery APIs^] video.
